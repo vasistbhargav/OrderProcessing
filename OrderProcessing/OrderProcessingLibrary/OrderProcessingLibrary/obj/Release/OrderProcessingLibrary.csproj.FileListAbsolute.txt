@@ -1,0 +1,5 @@
+C:\Users\Vasista Bhargav\Documents\Visual Studio 2013\Projects\OrderProcessingLibrary\trunk\OrderProcessing\OrderProcessingLibrary\OrderProcessingLibrary\bin\Release\OrderProcessingLibrary.dll
+C:\Users\Vasista Bhargav\Documents\Visual Studio 2013\Projects\OrderProcessingLibrary\trunk\OrderProcessing\OrderProcessingLibrary\OrderProcessingLibrary\bin\Release\OrderProcessingLibrary.pdb
+C:\Users\Vasista Bhargav\Documents\Visual Studio 2013\Projects\OrderProcessingLibrary\trunk\OrderProcessing\OrderProcessingLibrary\OrderProcessingLibrary\obj\Release\OrderProcessingLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Vasista Bhargav\Documents\Visual Studio 2013\Projects\OrderProcessingLibrary\trunk\OrderProcessing\OrderProcessingLibrary\OrderProcessingLibrary\obj\Release\OrderProcessingLibrary.dll
+C:\Users\Vasista Bhargav\Documents\Visual Studio 2013\Projects\OrderProcessingLibrary\trunk\OrderProcessing\OrderProcessingLibrary\OrderProcessingLibrary\obj\Release\OrderProcessingLibrary.pdb
