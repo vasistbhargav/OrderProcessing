@@ -46,5 +46,15 @@ namespace OrderProcessingLibrary.Tests
 
             Assert.That(orderProcessing.ProcessOrder(), Is.True);
         }
+
+        [TestCase]
+        public void When_Payment_Is_To_Upgrade_Membership_Expect_Apply_The_Upgrade_And_Send_Email_To_Owner()
+        {
+            MembershipUpgradation membership = new MembershipUpgradation();
+
+            OrderProcessing orderProcessing = new OrderProcessing(membership, _user);
+
+            Assert.That(orderProcessing.ProcessOrder(), Is.True);
+        }
     }
 }
