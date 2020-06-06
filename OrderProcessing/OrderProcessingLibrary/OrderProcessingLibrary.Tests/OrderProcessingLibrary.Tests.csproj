@@ -57,10 +57,17 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="OrderProcessingTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OrderProcessingLibrary\OrderProcessingLibrary.csproj">
+      <Project>{db9888c8-9576-4848-adf1-7fbf454aea08}</Project>
+      <Name>OrderProcessingLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
