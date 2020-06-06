@@ -41,9 +41,11 @@
   <ItemGroup>
     <Compile Include="Abstracts\AbstractMembership.cs" />
     <Compile Include="Abstracts\AbstractPhysicalProduct.cs" />
+    <Compile Include="Abstracts\AbstractVideoProduct.cs" />
     <Compile Include="Book.cs" />
     <Compile Include="Enums\Enums.cs" />
     <Compile Include="Interfaces\IProduct.cs" />
+    <Compile Include="LearningSkiVideo.cs" />
     <Compile Include="MembershipActivation.cs" />
     <Compile Include="MembershipUpgradation.cs" />
     <Compile Include="Models\User.cs" />
