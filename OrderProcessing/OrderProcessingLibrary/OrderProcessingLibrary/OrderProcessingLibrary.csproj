@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstracts\AbstractPhysicalProduct.cs" />
+    <Compile Include="Book.cs" />
     <Compile Include="Interfaces\IProduct.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="OrderProcessing.cs" />

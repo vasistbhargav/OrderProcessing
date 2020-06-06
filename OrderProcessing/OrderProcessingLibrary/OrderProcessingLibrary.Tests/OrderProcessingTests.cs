@@ -26,5 +26,15 @@ namespace OrderProcessingLibrary.Tests
 
             Assert.That(orderProcessing.ProcessOrder(), Is.True);
         }
+
+        [TestCase]
+        public void When_Payment_Is_For_Book_Expect_Generate_Packing_Slip_And_Generate_Comission_Payment_And_Create_Duplicate_Packing_Slip()
+        {
+            Book book = new Book();
+
+            OrderProcessing orderProcessing = new OrderProcessing(book, _user);
+
+            Assert.That(orderProcessing.ProcessOrder(), Is.True);
+        }
     }
 }
