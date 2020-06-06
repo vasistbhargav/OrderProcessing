@@ -36,5 +36,15 @@ namespace OrderProcessingLibrary.Tests
 
             Assert.That(orderProcessing.ProcessOrder(), Is.True);
         }
+
+        [TestCase]
+        public void When_Payment_Is_For_Membership_Expect_Activate_The_Membership_And_Send_Email_To_Owner()
+        {
+            MembershipActivation membership = new MembershipActivation();
+
+            OrderProcessing orderProcessing = new OrderProcessing(membership, _user);
+
+            Assert.That(orderProcessing.ProcessOrder(), Is.True);
+        }
     }
 }
